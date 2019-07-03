@@ -6,8 +6,6 @@
 /* You'll need to implement this one */
 .container {
   margin: auto;
-  /* margin: 0 auto; */
-
   width: 100%;
   max-width: 1140px;
 }
@@ -22,22 +20,11 @@
 .text-center {
   text-align: center;
 }
+
 .user-wrapper .row {
   display: flex;
+  justify-content: flex-start;
 }
-/* .profile-user {
-  padding-right: 160px;
-} */
-
-/* Large devices (desktops, 992px and up) */
-@media (min-width: 992px) {
-}
-
-/*Extra large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) {
-}
-
-/* Medium devices (tablets, 768px and up) */
 
 /* xsmall 500px an up */
 @media (min-width: 500px) {
@@ -69,7 +56,6 @@
   .col-sm-6 {
     width: 50%;
   }
-
   .col-sm-10 {
     width: 83%;
   }
@@ -78,6 +64,7 @@
   }
 }
 
+/* medium screen */
 @media (min-width: 768px) {
   .col-md-3 {
     width: 23%;
