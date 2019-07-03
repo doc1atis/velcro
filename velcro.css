@@ -5,33 +5,80 @@
 
 /* You'll need to implement this one */
 .container {
+  margin: auto;
+  /* margin: 0 auto; */
 
+  width: 100%;
+  max-width: 1140px;
 }
 
 /* And this one. */
 .row {
-
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 
-/*
+.text-center {
+  text-align: center;
+}
+.user-wrapper {
+}
+/* .profile-user {
+  padding-right: 160px;
+} */
 
-And these classes:
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+}
 
-### xs
-* col-2
-* col-4
-* col-8
-* col-10
-* col-12
+/*Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+}
 
-### sm
-* col-sm-2
-* col-sm-4
-* col-sm-6
-* col-sm-10
-* col-sm-12
+/* Medium devices (tablets, 768px and up) */
 
-### md
-* col-md-3
+/* xsmall 500px an up */
+@media (min-width: 500px) {
+  .col-2 {
+    width: 16%;
+  }
+  .col-4 {
+    width: 33%;
+  }
+  .col-8 {
+    width: 66%;
+  }
+  .col-10 {
+    width: 83%;
+  }
+  .col-12 {
+    width: 100%;
+  }
+}
 
-*/
+/* small */
+@media (min-width: 576px) {
+  .col-sm-2 {
+    width: 16%;
+  }
+  .col-sm-4 {
+    width: 33%;
+  }
+  .col-sm-6 {
+    width: 50%;
+  }
+
+  .col-sm-10 {
+    width: 83%;
+  }
+  .col-sm-12 {
+    width: 100%;
+  }
+}
+
+@media (min-width: 768px) {
+  .col-md-3 {
+    width: 23%;
+  }
+}
