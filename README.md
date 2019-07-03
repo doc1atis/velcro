@@ -22,6 +22,8 @@ It'll be like this:
 
 * We've talked about how Bootstrap works under the hood, and we've even peeked at Bootstrap's code together (and perhaps you have individually as well). But no more peeking. You've got this!
 
+* But one more note along those lines: Bootstrap uses Flexbox under the hood. Although there are certainly other ways to implement it, and you're welcome to explore them, Bootstrap switched to implementing their grid layout using Flexbox for good reason. It's definitely your path of least resistence here.
+
 * Although there's work you could do on the margins and spacing, your focus should be on making the columns take up the correct (or correct-like) spacing at the  given layouts. Work on spacing out rows and columns only _after_ nailing the basic layouts of all three possible viewport sizes.
 
 * Don't forget to check [Bootstrap's breakpoints](https://getbootstrap.com/docs/4.3/layout/overview/#responsive-breakpoints).
